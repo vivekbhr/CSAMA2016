@@ -1,3 +1,21 @@
+---
+title: "It works"
+author: "@vivekbhr"
+date: "Wed Jul 13 14:23:55 2016"
+---
 
+```{r lib}
+library(magrittr)
+```
 
-# It works!
+## It works!
+
+```{r}
+lapply(1:4, function(n) print(rep("It works",n)) )
+```
+
+### Hi world, it works.
+
+```{r}
+rnorm(1000) %>% hist()
+```
