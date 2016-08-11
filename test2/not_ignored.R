@@ -10,7 +10,7 @@ gi <- GInteractions(region.1, region.2)
 anchors(gi)
 regions(gi)
 
-
+## some random changes
 temp.gi <- gi
 annotation <- rep(c("E", "P", "N"), length.out=6)
 regions(temp.gi)$anno <- annotation
